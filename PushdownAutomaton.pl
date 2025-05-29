@@ -1,14 +1,7 @@
-% Pushdown Automaton implementation in Prolog
-% By Tomáš Svoboda, SVO0280
-% Summer semester, 2025
-% 
 % Usage:
 %   Set initial state, initial stack symbol and transition rules.
 %   Call accepts('input string') to check if the input string is accepted by the automaton.
 %   The automaton accepts by reading the input string and emptying the stack.
-%
-% Transitions, examples:
-% https://www.cs.vsb.cz/kot/anim/a-pda_vypocet.pdf
 
 % Initial state and stack symbol
 initial_state(q0).
